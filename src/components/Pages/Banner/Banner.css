@@ -1,0 +1,21 @@
+.banner-section{
+    background-image: url('../../Assets/banner.283185b5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.img-overlay{
+    height: 100vh;
+    width: 100%;
+    background:#47218371;
+}
+.profile{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+.profile img{
+    border-radius: 50%;
+}

@@ -1,0 +1,6 @@
+.side-bar{
+    height: calc(100vh - 20px);
+    width: 100px;
+    position: fixed;
+    background-color: #fff;
+}

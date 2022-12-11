@@ -1,0 +1,37 @@
+.nav-list{
+    list-style-type: none;
+    border: 1px solid #eaeaea;
+    height: calc(100vh - 20px);
+    padding: 0px;
+    margin: 0;
+
+}
+.nav-list > li{
+    border: 1px solid #eaeaea;
+    padding: 15px;
+    border-right: none;
+    margin-bottom: 10px;
+} 
+.nav-list a{
+    color: #696969;
+    text-decoration: none;
+
+}
+.nav-list > li > p{
+    margin-bottom: 5px;
+
+
+}
+.nav-list > li > p > svg{
+    font-size: 16px;
+    color: #696969;
+
+}
+.main-logo{
+    background-color: #472183;
+}
+.main-logo a{
+    font-size: 55px;
+    color: #fff;
+    font-weight: 500;
+}
