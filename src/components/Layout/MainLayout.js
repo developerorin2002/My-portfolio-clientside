@@ -1,6 +1,6 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import Header from '../Header/Header';
-import Banner from '../Pages/Banner/Banner';
 import './MainLayout.css'
 
 const MainLayout = () => {
@@ -12,7 +12,7 @@ const MainLayout = () => {
                 </div>
             </div>
             <div className="col-lg-11">
-                <Banner></Banner>
+                <Outlet></Outlet>
             </div>
         </div>
     );

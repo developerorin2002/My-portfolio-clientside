@@ -1,21 +1,61 @@
-.banner-section{
+.banner-section {
     background-image: url('../../Assets/banner.283185b5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
-.img-overlay{
+
+.img-overlay {
     height: 100vh;
     width: 100%;
-    background:#47218371;
+    background: #47218371;
 }
-.profile{
+
+.profile {
     height: 200px;
     width: 200px;
     border: 5px solid #fff;
     border-radius: 50%;
 }
-.profile img{
+
+.profile img {
     border-radius: 50%;
+}
+
+.resume-btn {
+    border: 2px solid #472183;
+    background: #4721834b;
+    color: #fff;
+    padding: 12px 40px;
+    border-radius: 50px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all linear 0.3s;
+}
+.resume-btn:hover{
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #472183;
+}
+.knowledge-text{
+    color: #472183;
+}
+.knowledge-img img{
+    height: 50px;
+    width: 50px;
+}
+.see-more-btn{
+    padding: 15px 45px;
+    display: inline-block;
+    border: none;
+    background-color: #472183;
+    color: #fff;
+    
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: 500;
 }
